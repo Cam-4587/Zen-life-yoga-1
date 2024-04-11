@@ -1,8 +1,27 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(144, 238, 144);
+    display: inline-flex;
+    justify-content: center;
+}
+
+#lily-flower {
+    height: 2em;
+}
+header h4 {
+    align-self: center;
+}
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-footer{
+
+footer {
     margin-top: auto;
+    background-color: rgb(144, 238, 144)
 }
