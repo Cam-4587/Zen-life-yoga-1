@@ -29,5 +29,12 @@ body {
 
 footer {
     margin-top: auto;
-    background-color: rgb(144, 238, 144)
+    background-color: rgb(144, 238, 144);
+}
+
+footer ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin:2vh;
 }
