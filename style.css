@@ -38,6 +38,35 @@ body {
     display: flex;
     flex-direction: column;
     background: repeating-linear-gradient(#e0efe5, #c9eed6);
+    position: relative;
+    overflow:scroll;
+}
+/*About us section styling and positioning*/
+
+.container{
+    border: 1px solid black;
+    height:40vh; 
+    width:55vw;
+    position:absolute;
+    right:20%;
+    top:25%;  
+}
+.about-us {
+    border: 1px solid black;
+    height: 150px;
+    width:150px;
+    position:absolute;
+    right:20%;
+    top:15%;  
+    overflow:auto;
+}
+.image img {
+    border: 1px solid black;
+    height: 150px;
+    width:200px;
+    position:absolute;
+    right:60%;
+    top:15%;
 }
 
 /* footer styling */
