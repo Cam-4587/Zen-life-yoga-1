@@ -7,19 +7,25 @@ header {
     background-color: rgb(144, 238, 144);
     display: inline-flex;
     justify-content: center;
+    height: 10vh;
+    margin-right:3.3vw;
+    padding: 1%;
 }
 
 #lily-flower {
-    height: 2em;
-}
-header h4 {
+    height: 5em;
     align-self: center;
+}
+header > h4 {
+    align-self: center;
+    font-size:400%;
 }
 nav {
     background-color:rgb(144, 238, 144);
     display:flex;
     gap:2vw;
     justify-content: center;
+    padding:1%;
 }
 body {
     min-height: 100vh;
