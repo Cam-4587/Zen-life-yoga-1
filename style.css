@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* Header styling*/
 header {
     background-color: rgb(144, 238, 144);
@@ -21,6 +22,7 @@ header>h4 {
     align-self: center;
     font-size: 400%;
 }
+
 /* Navigation bar styling*/
 nav {
     background-color: rgb(144, 238, 144);
@@ -37,6 +39,7 @@ body {
     flex-direction: column;
     background: repeating-linear-gradient(#e0efe5, #c9eed6);
 }
+
 /* footer styling */
 footer {
     margin-top: auto;
@@ -49,28 +52,43 @@ footer ul {
     list-style-type: none;
     margin: 2vh;
 }
+
 /* Scheduling table styling */
 
-.schedule-main{
+.schedule-main {
     min-height: 100vh;
     background: repeating-linear-gradient(#e0efe5, #c9eed6);
     font-family: arial;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
-  }
-  .schedule-header {
+    justify-content: center;
+}
+
+.schedule-header {
     text-align: center;
-  }
-  .timetable{
+}
+
+.timetable {
     height: 90vh;
-    width:90vw;
-  }
-  .timetable table, th, td {
+    width: 90vw;
+}
+
+.timetable table,
+th,
+td {
     border: 6px gray;
-    border-style:groove;
-    border-collapse:collapse;
-    margin:auto;
+    border-style: groove;
+    border-collapse: collapse;
+    margin: auto;
     text-align: center;
-  }
+}
+
+/*contact form styling */
+#contact-info {
+    display: flex;
+    gap: 15vw;
+    margin-left: 10vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
