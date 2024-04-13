@@ -44,12 +44,26 @@ body {
 }
 
 /*About us section styling and positioning beginning*/
+.main-image{
+  width:100vw; 
+  opacity:0.33; 
+  position:relative;
+}
+
+.about-us{
+position:absolute;
+width:40vw;
+font-size: 27px;
+margin: 3% 0 0 3%;
+font-weight:500;
+}
+.about-us h3 {
+  text-align: center;
+  text-decoration:underline;
+}
 
 /*About us section styling and positioning Ending*/
-
 /* flip card styling*/
-
-
 /*schedule styling*/
 .schedule-main {
   min-height: 100vh;
