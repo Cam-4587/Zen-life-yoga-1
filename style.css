@@ -44,96 +44,11 @@ body {
 }
 
 /*About us section styling and positioning beginning*/
-.section{
-    width:60vw;
-    min-height:60vh;
-    Border: 5px solid black;
-    position:sticky;
-    left:20%;
-    align-items:center;
-    background-color: #ddd;
-}
-.boxing{
-    width:80%;
-    display:block;
-    margin:auto; 
-    padding-top:30px;
-}
-.content-section {
-    float: right;
-    width:55%;
-}
-.title {
-    text-align: center;
-}
-title content{}
-.image-section{
-    float:left;
-    width:40%;
-}
-.image-section img{
-    width:100%;
-    height: auto;
-    margin-top: 20%;
-}
+
 /*About us section styling and positioning Ending*/
 
  /* flip card styling*/
- .flip-card-section{
-    display:inline-flex;
-    gap: 14px;
-    position:sticky;
-    margin: 5% 0;
-  }
-   .container {
-    width: 200px;
-    height: 200px;
-    perspective: 800px;
-    gap:5px;
-  }
   
-  .container:hover > .card {
-    cursor: pointer;
-    transform: rotateY(180deg);
-  }
-  
-  .card {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
-  }
-  
-  .front,
-  .back {
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-    position: absolute;
-    backface-visibility: hidden;
-    color: rgb(211, 211, 211);
-  }
-  
-  .front {
-    background-color: lightgreen;
-    color:black;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-  }
-  .back {
-    background-color: #3a3a3a;
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    padding: 12.5px;
-  }
   
   /*schedule styling*/
   .schedule-main{
