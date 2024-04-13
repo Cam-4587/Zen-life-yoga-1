@@ -1,132 +1,140 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header styling*/
 header {
-    background-color: rgb(144, 238, 144);
-    display: inline-flex;
-    justify-content: center;
-    height: 10vh;
-    margin-right: 3.3vw;
-    padding: 1%;
+  background-color: rgb(144, 238, 144);
+  display: inline-flex;
+  justify-content: center;
+  height: 10vh;
+  margin-right: 3.3vw;
+  padding: 1%;
 }
 
 #lily-flower {
-    height: 5em;
-    align-self: center;
+  height: 5em;
+  align-self: center;
 }
 
 header>h4 {
-    align-self: center;
-    font-size: 400%;
+  align-self: center;
+  font-size: 400%;
 }
 
 /* Navigation bar styling*/
 nav {
-    background-color: rgb(144, 238, 144);
-    display: flex;
-    gap: 2vw;
-    justify-content: center;
-    padding: 1%;
-    font-size: 20px;
+  background-color: rgb(144, 238, 144);
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  padding: 1%;
+  font-size: 20px;
 }
 
 /*Body styling */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: repeating-linear-gradient(#e0efe5, #c9eed6);
-    position: relative;
-    overflow:scroll;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: repeating-linear-gradient(#e0efe5, #c9eed6);
+  position: relative;
+  overflow: scroll;
 }
 
 /*About us section styling and positioning beginning*/
 
 /*About us section styling and positioning Ending*/
 
- /* flip card styling*/
-  
-  
-  /*schedule styling*/
-  .schedule-main{
-    min-height: 100vh;
-    background: repeating-linear-gradient(#c3f0d3, #81d69f);
-    font-family: arial;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-  }
-  .schedule-header {
-    text-align: center;
-  }
-  .timetable{
-    height: 90vh;
-    width:90vw;
-  }
-  .timetable table, th, td {
-    border: 6px gray;
-    border-style:groove;
-    border-collapse:collapse;
-    margin:auto;
-    text-align: center;
-  }
-  /*contact page styling */
-  
-/*Flip card styling beginning*/
+/* flip card styling*/
 
-/* footer styling */
-footer {
-    margin-top: auto;
-    background-color: rgb(144, 238, 144);
-}
 
-footer ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin: 2vh;
-}
-
-/* Scheduling table styling */
-
+/*schedule styling*/
 .schedule-main {
-    min-height: 100vh;
-    background: repeating-linear-gradient(#e0efe5, #c9eed6);
-    font-family: arial;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  min-height: 100vh;
+  background: repeating-linear-gradient(#c3f0d3, #81d69f);
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .schedule-header {
-    text-align: center;
+  text-align: center;
 }
 
 .timetable {
-    height: 90vh;
-    width: 90vw;
+  height: 90vh;
+  width: 90vw;
 }
 
 .timetable table,
 th,
 td {
-    border: 6px gray;
-    border-style: groove;
-    border-collapse: collapse;
-    margin: auto;
-    text-align: center;
+  border: 6px gray;
+  border-style: groove;
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+}
+
+/*contact page styling */
+/*Flip card styling beginning*/
+
+/* footer styling */
+footer {
+  margin-top: auto;
+  background-color: rgb(144, 238, 144);
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 2vh;
+}
+
+
+/* Gallery images styling */
+
+/* Scheduling table styling */
+
+.schedule-main {
+  min-height: 100vh;
+  background: repeating-linear-gradient(#e0efe5, #c9eed6);
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule-header {
+  text-align: center;
+}
+
+.timetable {
+  height: 90vh;
+  width: 90vw;
+}
+
+.timetable table,
+th,
+td {
+  border: 6px gray;
+  border-style: groove;
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
 }
 
 /*contact form styling */
 #contact-info {
-    display: flex;
-    gap: 15vw;
-    margin-left: 10vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  gap: 15vw;
+  margin-left: 10vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
