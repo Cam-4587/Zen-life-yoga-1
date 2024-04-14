@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,18 @@
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style:none;
+}
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
 }
 /* Header styling*/
 header {
@@ -42,7 +55,7 @@ nav {
   gap: 2vw;
   justify-content: center;
   padding: 1%;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*Body styling */
@@ -66,9 +79,15 @@ body {
 .about-us{
 position:absolute;
 width:40vw;
-font-size: 27px;
-margin: 3% 0 0 3%;
-font-weight:500;
+font-size:23px;
+margin: 0;
+}
+
+.about-us-font{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .about-us h3 {
   text-align: center;
@@ -87,6 +106,8 @@ font-weight:500;
   flex-direction: row;
   align-items: center;    
   justify-content:center;
+  margin-top:10vh;
+  margin-bottom:10vh;
 }
  .container {
   width: 200px;
@@ -143,6 +164,8 @@ font-weight:500;
   flex-direction: row;
   align-items: center;    
   justify-content:center;
+  margin-top:10vh;
+  margin-bottom:10vh; 
 }
 
 .types-of-yoga {
@@ -152,7 +175,6 @@ font-weight:500;
   justify-content: center;
   font-size:300%;
 }
-
 /*schedule styling*/
 .schedule-main{
   min-height: 100vh;
