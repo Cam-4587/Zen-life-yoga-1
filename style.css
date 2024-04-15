@@ -38,7 +38,7 @@ header {
 }
 
 #lily-flower {
-  height: 5em;
+  height: 4.6em;
   align-self: center;
 }
 
@@ -79,7 +79,6 @@ body {
 .about-us{
 position:absolute;
 width:40vw;
-font-size:23px;
 margin: 0;
 }
 
@@ -88,6 +87,7 @@ margin: 0;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.8vw;
 }
 .about-us h3 {
   text-align: center;
