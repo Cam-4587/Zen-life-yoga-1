@@ -1,31 +1,35 @@
-
 * {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
 }
-.barlow-condensed-thin { 
+
+.barlow-condensed-thin {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
+
 .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
 .dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 200;
-  font-style:none;
+  font-style: none;
 }
+
 .sedan-regular-italic {
   font-family: "Sedan", serif;
   font-weight: 400;
   font-style: italic;
   line-height: 1.5;
 }
+
 /* Header styling*/
 header {
   background-color: rgb(144, 238, 144);
@@ -34,7 +38,7 @@ header {
   height: 10vh;
   margin-right: 3.3vw;
   padding: 1%;
-  width:100%;
+  width: 100vw;
 }
 
 #lily-flower {
@@ -45,7 +49,7 @@ header {
 header>h4 {
   align-self: center;
   font-size: 400%;
-  padding-right:8%;
+  padding-right: 8%;
 }
 
 /* Navigation bar styling*/
@@ -61,6 +65,7 @@ nav {
 /*Body styling */
 body {
   min-height: 100vh;
+  height:100%;
   display: flex;
   flex-direction: column;
   background: repeating-linear-gradient(#e0efe5, #c9eed6);
@@ -69,54 +74,56 @@ body {
 }
 
 /*About us section styling and positioning beginning*/
-.main-image{
-  width:100vw; 
-  opacity:0.33; 
-  position:relative;
+.main-image {
+  width: 100vw;
+  opacity: 0.33;
+  position: relative;
   box-shadow: 10px;
 }
 
-.about-us{
-position:absolute;
-width:40vw;
-margin: 0;
+.about-us {
+  position: absolute;
+  width: 40vw;
+  margin: 0;
 }
 
-.about-us-font{
+.about-us-font {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.8vw;
+  font-size: 2.3vh;
 }
+
 .about-us h3 {
   text-align: center;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 /*About us section styling and positioning Ending*/
 /* flip card styling*/
- /* flip card styling*/
- .flip-card-section{
-  display:flex;
-  position:sticky;
+/* flip card styling*/
+.flip-card-section {
+  display: flex;
+  position: sticky;
   align-items: content;
   gap: 30px;
-  width:100vw;
+  width: 100vw;
   flex-direction: row;
-  align-items: center;    
-  justify-content:center;
-  margin-top:10vh;
-  margin-bottom:10vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
- .container {
+
+.container {
   width: 200px;
   height: 200px;
   perspective: 800px;
-  gap:5px;
+  gap: 5px;
 }
 
-.container:hover > .card {
+.container:hover>.card {
   cursor: pointer;
   transform: rotateY(180deg);
 }
@@ -142,30 +149,36 @@ margin: 0;
 
 .front {
   background-color: lightgreen;
-  color:black;
-  display:flex;
+  color: black;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
+
 .back {
   background-color: #3a3a3a;
   transform: rotateY(180deg);
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5rem;
   padding: 12.5px;
 }
+
+.back p {
+  font-size: auto;
+}
+
 .second-row {
-  display:flex;
-  gap:30px;
+  display: flex;
+  gap: 30px;
   flex-direction: row;
-  align-items: center;    
-  justify-content:center;
-  margin-top:10vh;
-  margin-bottom:10vh; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .types-of-yoga {
@@ -173,33 +186,41 @@ margin: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size:300%;
+  font-size: 300%;
 }
+
+
 /*schedule styling*/
-.schedule-main{
+.schedule-main {
   min-height: 100vh;
   background: repeating-linear-gradient(#c3f0d3, #81d69f);
   font-family: arial;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
+
 .schedule-header {
   text-align: center;
 
 }
-.timetable{
+
+.timetable {
   height: 90vh;
-  width:90vw;
+  width: 90vw;
 }
-.timetable table, th, td {
+
+.timetable table,
+th,
+td {
   border: 6px gray;
-  border-style:groove;
-  border-collapse:collapse;
-  margin:auto;
+  border-style: groove;
+  border-collapse: collapse;
+  margin: auto;
   text-align: center;
 }
+
 /*contact page styling */
 
 /*schedule styling*/
@@ -239,7 +260,8 @@ td {
 footer {
   margin-top: auto;
   background-color: rgb(144, 238, 144);
-  width:100vw;
+  width: 100vw;
+  min-width: 100%;
 }
 
 footer ul {
@@ -251,7 +273,16 @@ footer ul {
 
 
 /* Gallery images styling */
-
+.gallery{
+justify-content:center;
+display: inline-flex;
+clear:both;
+line-height:0;
+column-count:3;
+column-gap:0px;
+row-gap:0px;
+width:100%;
+}
 /* Scheduling table styling */
 
 .schedule-main {
@@ -284,10 +315,82 @@ td {
 }
 
 /*contact form styling */
-#contact-info {
+.contact-info {
   display: flex;
   gap: 15vw;
   margin-left: 10vw;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10vh;
+  }
+  .timetable table, {
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+
+  iframe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flip-card-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-row {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-us {
+    line-height: 1.5;
+    width: 90vw;
+    height: 100vh;
+    font-size: 1.4vh;
+    text-align:center
+  }
+ .about-us img {
+  height:100px;
+ }
+  .main-image {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .types-of-yoga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 300%;
+    margin-left: 15px;
+    text-align:center;
+  }
+  .gallery {
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    width:100vw;
+    align-items:center;
+    row-gap:0px:
+  }
 }
