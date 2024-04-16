@@ -49,5 +49,7 @@ The site was deployed to Github pages. The steps to deploy the website are as fo
 4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments right hand side in the 'about' side bar I selected Deployments.
 5. The url in the deployments menu is selected to open the webpage to deploy it.
 
+Link can be found here - https://cam-4587.github.io/Zen-life-yoga-1/
+
 #Credits
 
