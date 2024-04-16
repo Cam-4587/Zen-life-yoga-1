@@ -39,6 +39,13 @@ The final contact information page contains the email address, phone number addr
 
 ![alt text](/Read%20Me%20images/Contact%20info%20page.png)
 
-
+##Testing
+#Deployment
+    The site was deployed to Github pages. The steps to deploy the website are as follows:
+        1.In the Github repository I went to settings
+        2.Then in the left hand menu I went the 'code and automation' and clicked on 'pages'
+        3.Afterwards on Source I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
+        4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments right hand side in the 'about' side bar I selected Deployments.
+        5. The url in the deployments menu is selected to open the webpage to deploy it.
 #Credits
 
