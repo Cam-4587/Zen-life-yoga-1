@@ -22,8 +22,9 @@ Underneath the About us section is a selection of flip cards that surround a hea
 
 Gallery
 
-The Gallery page includes 10 images, most of them being images of people
+The Gallery page includes 10 images, most of them being images of people performing different yoga positions with a couple of images of eqipment that is available at the yoga stuido.
 
+![alt text](<About us home page image.png>)
 
 
 
