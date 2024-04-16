@@ -28,7 +28,7 @@ Underneath the About us section is a selection of flip cards that surround a hea
 The Gallery page includes 10 images, most of them being images of people performing different yoga positions with a couple of images of equipment that is available at the yoga stuido. These images are centered towards the center of the page with no row gaps and column gaps.
 ![alt text](</Read Me images/Gallery Section.png>)
 
-### Scehdule
+### Schedule
 
 The Schedule page tells users what time Each of the classes are on thorught the week, each piece of text is in it's own box with shadowing so that it is easy for the use to Read and understand.
 ![alt text](/Read%20Me%20images/Schedule.png)
@@ -41,11 +41,13 @@ The final contact information page contains the email address, phone number addr
 
 # Testing
 ## Deployment
-    The site was deployed to Github pages. The steps to deploy the website are as follows:
-        1.In the Github repository I went to settings
-        2.Then in the left hand menu I went the 'code and automation' and clicked on 'pages'
-        3.Afterwards on Source I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
-        4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments right hand side in the 'about' side bar I selected Deployments.
-        5. The url in the deployments menu is selected to open the webpage to deploy it.
+The site was deployed to Github pages. The steps to deploy the website are as follows:
+
+1.In the Github repository I went to settings
+2.Then in the left hand menu I went the 'code and automation' and clicked on 'pages'
+3.Afterwards on Source I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
+4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments right hand side in the 'about' side bar I selected Deployments.
+5. The url in the deployments menu is selected to open the webpage to deploy it.
+
 #Credits
 
