@@ -51,5 +51,77 @@ The site was deployed to Github pages. The steps to deploy the website are as fo
 
 Link can be found here - https://cam-4587.github.io/Zen-life-yoga-1/
 
-#Credits
+# Credits
+
+##Fonts
+I imported fonts from google fonts to help me style my webpage https://fonts.google.com/
+"Montserrat", "Pacifico"and "Barlow Condensed" were all imported from google fonts
+
+## Head section/Tab 
+
+The favicon icon was sourced from flaticon:
+
+https://www.flaticon.com/free-icon/yoga_2773699?term=yoga&page=1&position=55&origin=search&related_id=2773699 Yoga man favicon icon
+
+## Header
+The lily flower icon was sourced from flaticon:
+https://www.flaticon.com/free-icon/lily-flower_15385508?related_id=15385508 - lily flower icon
+
+## Footer
+The icons used on the footer cam from favicon, the source links are:
+
+https://fontawesome.com/icons/youtube?f=brands&s=solid - Youtube icon
+
+https://fontawesome.com/icons/instagram?f=brands&s=solid - Instagram icon
+
+https://fontawesome.com/icons/square-x-twitter?f=brands&s=solid - X icon
+
+The arrangement of the social media icons arranged centrally in the footer came from the  Love Running project that was completed during the Code Instiute Full stack developer project.
+
+Love Running project URL - https://cam-4587.github.io/Love-Running-walkthrough-project/index.html
+
+## Home page
+Instructions for creawting a flip card element came from this specific youtube video https://www.youtube.com/watch?v=OV8MVmtgmoY
+
+The background image was sourced from pexels -https://www.pexels.com/photo/man-in-black-shorts-sitting-on-floor-4325466/
+
+Information on the different yoga types came from the following source -https://www.medicalnewstoday.com/articles/286745
+## Gallery
+All of the images that I have used for the gallery were sourced from https://www.pexels.com/
+links for all the original image sources:
+
+https://www.pexels.com/photo/selective-focus-photography-of-woman-in-white-sports-brassiere-standing-near-woman-sitting-on-pink-yoga-mat-864939/
+
+https://www.pexels.com/photo/group-of-people-at-a-yoga-studio-8437076/
+
+https://www.pexels.com/photo/people-doing-yoga-in-the-studio-8436589/
+
+https://www.pexels.com/photo/people-meditating-in-a-yoga-class-8436637/
+
+https://www.pexels.com/photo/people-meditating-in-a-yoga-class-8436715/
+
+https://www.pexels.com/photo/gray-textile-on-brown-wooden-shelf-4327012/
+
+https://www.pexels.com/photo/black-round-plastic-tool-on-brown-plastic-basket-4325462/
+
+https://www.pexels.com/photo/elderly-woman-in-white-shirt-doing-yoga-8436593/
+
+https://www.pexels.com/photo/three-women-smiling-in-a-yoga-class-8436772/
+
+https://www.pexels.com/photo/women-lying-on-the-floor-8436555/
+
+And the images were resized before incorporating them into the website using Resize Pixels -https://www.resizepixel.com
+
+
+## Schedule
+Instructions for the schedule came from this specific youtube video https://www.youtube.com/watch?v=yUEkRe2Rzpk&t=1s
+
+## Contact Us page
+
+The Idea to have the contact information and the map and the query form next to the contact information came from the coder's coffeehouse project and the query form coding came from the Sign-up form section on the Code Institute full stack development course from teh "Form Validation" Challenge and the "Textarea" challenge.
+
+Coder's coffee house - https://learn.codeinstitute.net/sandbox/api/challenges/63f8a682b18a2500418d0f06/files/index.html
+
+
+
 
