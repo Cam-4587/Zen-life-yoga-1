@@ -39,7 +39,7 @@ The final contact information page contains the email address, phone number addr
 
 ![alt text](/Read%20Me%20images/Contact%20info%20page.png)
 
-##Testing
+# Testing
 #Deployment
     The site was deployed to Github pages. The steps to deploy the website are as follows:
         1.In the Github repository I went to settings
