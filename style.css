@@ -35,29 +35,31 @@ header {
   justify-content: center;
   height: 10vh;
   margin-right: 3.3vw;
-  padding: 1%;
+  padding: 3%;
   width: 100vw;
 }
 
 #lily-flower {
-  height: 4.6em;
+  height: 6.5em;
   align-self: center;
 }
 
 header>h4 {
   align-self: center;
-  font-size: 400%;
-  padding-right: 8%;
+  font-size: 450%;
+  padding-right: 10%;
 }
 
 nav {
   background-color: rgb(144, 238, 144);
   display: flex;
-  gap: 2vw;
+  gap: 3vw;
   justify-content: center;
   padding: 1%;
-  font-size: 30px;
+  font-size: 25px;
   width: 100%;
+  padding-right: 14%;
+
 }
 
 body {
