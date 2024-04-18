@@ -405,7 +405,7 @@ td {
   height: 100vh;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 435px) {
   header {
     align-content: center;
     font-size: 60%;
