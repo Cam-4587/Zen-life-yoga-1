@@ -122,6 +122,8 @@ The Idea to have the contact information and the map and the query form next to 
 
 Coder's coffee house - https://learn.codeinstitute.net/sandbox/api/challenges/63f8a682b18a2500418d0f06/files/index.html
 
+The phone number on the page was generated at https://sms24.me/en/numbers/447741366343
+The email on the page was generated at - https://generator.email/
 
 
 
