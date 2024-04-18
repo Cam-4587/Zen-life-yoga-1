@@ -189,10 +189,9 @@ footer ul {
 }
 
 .gallery {
-  width: 100vw;
-  justify-content: center;
+  width: 100%;
+  justify-content:end;
   display: inline-flex;
-  clear: both;
   line-height: 0;
   column-count: 3;
   column-gap: 0px;
