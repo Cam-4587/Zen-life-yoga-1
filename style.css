@@ -220,6 +220,7 @@ footer ul {
   height: 90vh;
   width: 90vw;
   table-layout: fixed;
+  
 }
 
 .timetable table,
@@ -290,13 +291,12 @@ td {
 
   .timetable th {
     font-weight: 900;
-    overflow-x: hidden;
   }
 }
 
 @media screen and (max-width: 789px) {
   .about-us {
-    font-size: 85%;
+    font-size: 120%;
   }
 
   .main-image {
@@ -341,7 +341,7 @@ td {
     text-align: center;
     margin-right:10%;
 }
-
+}
 @media screen and (max-width: 628px) {
   .about-us {
     font-size: 65%;
@@ -362,7 +362,7 @@ td {
 
 @media screen and (max-width: 628px) {
   .about-us {
-    font-size: 80%;
+    font-size: 75%;
   }
 
   .main-image {
@@ -370,9 +370,9 @@ td {
   }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 540px) {
   header {
-    font-size: 70%;
+    font-size: 60%;
   }
 
   #lily-flower {
@@ -380,34 +380,48 @@ td {
   }
 
   nav {
-    font-size: 100%;
-    margin-top: 0px;
+    font-size: 110%;
   }
-
-  .about-us {
-    font-size: 75%;
-  }
-}
 
 .main-image {
-  height: 100vh;
+  height: 110vh;
 }
 
 .about-us {
-  font-size: 65%;
+  width:80%;
+  font-size: 75%;
+  font-weight:600;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align:center;
 }
-
-.main-image {
-  height: 100vh;
 }
-
 @media screen and (max-width: 435px) {
   header {
     align-content: center;
-    font-size: 60%;
+    font-size: 50%;
   }
+  .about-us {
+    font-size: 90%;
+}
+}
+@media screen and (max-width: 318px) {
+  header {
+    align-content: center;
+    font-size: 50%;
+  }
+  .about-us {
+    font-size: 65%;
+}
+}
+@media screen and (max-width: 294px) {
+  header {
+    align-content: center;
+    font-size: 35%;
+  }
+  .about-us {
+    font-size: 60%;
+}
 }
