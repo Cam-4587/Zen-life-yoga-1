@@ -36,7 +36,7 @@ header {
   height: 10vh;
   margin-right: 3.3vw;
   padding: 3%;
-  width: 100vw;
+  width: 100%;
 }
 
 #lily-flower {
@@ -98,7 +98,7 @@ footer ul {
   font-family: "Montserrat", sans-serif;
   position: absolute;
   font-size: 500%;
-  width: 40vw;
+  width: 50vw;
   left: 5%;
   margin-top: 2.5%;
   line-height: 1.7;
