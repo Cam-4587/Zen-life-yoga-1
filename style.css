@@ -17,9 +17,7 @@
 
 .dancing-script {
   font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
   font-weight: 200;
-  font-style: none;
 }
 
 .sedan-regular-italic {
@@ -107,7 +105,6 @@ footer ul {
 .flip-card-section {
   display: flex;
   position: relative;
-  align-items: content;
   gap: 30px;
   width: 100vw;
   flex-direction: row;
@@ -167,10 +164,6 @@ footer ul {
   padding: 12.5px;
 }
 
-.back p {
-  font-size: auto;
-}
-
 .second-row {
   display: flex;
   gap: 30px;
@@ -190,13 +183,12 @@ footer ul {
 }
 
 .gallery {
-  justify-content: space-evenly;
+  justify-content:stretch;
   display: inline-flex;
-  line-height: 1em;
-  column-gap: 0px;
-  row-gap: 0px;
-  width: 100vw;
-  columns:3;
+  width:100vw;
+  flex-wrap: wrap;
+  line-height:0;
+  gap: 0;
 }
 
 
@@ -351,12 +343,11 @@ td {
   }
 
   .gallery {
+    width:100%;
     Display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    columns: 1;
-    width: 100vw;
   }
 }
 
