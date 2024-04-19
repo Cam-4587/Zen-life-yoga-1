@@ -175,7 +175,8 @@ footer ul {
 }
 
 .types-of-yoga {
-  display: flex;
+  display:flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -183,12 +184,14 @@ footer ul {
 }
 
 .gallery {
-  justify-content:stretch;
+  justify-content: space-evenly;
   display: inline-flex;
-  width:100vw;
-  flex-wrap: wrap;
-  line-height:0;
-  gap: 0;
+  line-height: 1em;
+  column-gap: 0px;
+  row-gap: 0px;
+  width: 100vw;
+  columns: 3;
+  width: 100%;
 }
 
 
@@ -284,6 +287,9 @@ td {
   .timetable th {
     font-weight: 900;
   }
+  .gallery {
+    column:2;
+  }
 }
 
 @media screen and (max-width: 789px) {
@@ -315,6 +321,7 @@ td {
     display: flex;
     flex-direction: column;
   }
+  .gallery
 }
 
 @media screen and (max-width: 703px) {
@@ -343,11 +350,14 @@ td {
   }
 
   .gallery {
-    width:100%;
     Display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:stretch;
     align-items: center;
+    column:3;
+  }
+  gallery img {
+    width:100%;
   }
 }
 
