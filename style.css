@@ -62,14 +62,12 @@ nav {
 }
 
 body {
-  min-height: 100%;
-  min-width: 100%;
+  height:100%;
   display: flex;
   flex-direction: column;
   background: repeating-linear-gradient(#e0efe5, #c9eed6);
   position: relative;
   overflow-x: hidden;
-  font-size: 100%;
 }
 
 footer {
@@ -175,7 +173,7 @@ footer ul {
 }
 
 .types-of-yoga {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
@@ -216,7 +214,7 @@ footer ul {
   width: 90vw;
   table-layout: fixed;
   font-size: 1.5em;
-  
+
 }
 
 .timetable table,
@@ -230,21 +228,27 @@ td {
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
-  font-size:1em;
+  font-size: 1em;
 }
 
 .contact-info {
+  height: 100%;
   display: flex;
-  gap: 10vw;
-  margin-left: 15vw;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
 }
 
 #query {
-  width: 400px;
-  height: 300px;
+  width: 40vw;
+  height: 30vw;
   font-family: "Montserrat", sans-serif;
+}
+
+.map-location {
+  height: 80vh;
+  width: 30vw;
 }
 
 .Input-button {
@@ -253,54 +257,22 @@ td {
   font-family: "Montserrat", sans-serif;
 }
 
-#Query-box {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
 
 @media screen and (min-width: 1000px) {
   .about-us {
     font-size: 110%;
   }
 
-}
-
-@media screen and (max-width: 1000px) {
-  .about-us {
-    font-size: 95%;
-  }
-}
-@media screen and (max-width: 863px) {
-  .about-us {
-    font-size: 90%;
+  #query {
+    width: 60vw;
+    height: 20vw;
+    font-family: "Montserrat", sans-serif;
   }
 
-  .main-image {
-    height: 100vh;
-  }
-
-  .timetable {
-    font-size: 1em;
-    font-weight: 900;
-    overflow-x: hidden;
-    line-height: 1rem;
-  }
-
-  .timetable th {
-    font-weight: 900;
-  }
-  .gallery {
-    column:2;
-  }
-}
-
-@media screen and (max-width: 789px) {
-  .about-us {
-    font-size: 120%;
-  }
-
-  .main-image {
-    height: 100vh;
+  .map-location {
+    width: 40vw;
+    height: 40vh;
+    margin-right: 20px;
   }
 
   .types-of-yoga {
@@ -309,7 +281,48 @@ td {
     align-items: center;
     justify-content: center;
     text-align: center;
-    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .about-us {
+    font-size: 95%;
+  }
+
+  .types-of-yoga {
+    font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 863px) {
+  .about-us {
+    font-size: 90%;
+  }
+
+  .main-image {
+    height: 50vh;
+  }
+
+  .map-location {
+    width: 60vw;
+    height: 40vw;
+  }
+
+  #query {
+    width: 60vw;
+    height: 40vw;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .about-us {
+    font-size: 90;
+  }
+
+  .main-image {
+    height: 60vh;
   }
 
   .flip-card-section {
@@ -323,64 +336,59 @@ td {
     display: flex;
     flex-direction: column;
   }
-  .gallery
 }
 
 @media screen and (max-width: 703px) {
   .about-us {
-    font-size: 80%;
+    font-size: 100%;
   }
+
   .timetable {
-    font-size:0.8em;
+    font-size: 0.8em;
   }
+
   .main-image {
-    height: 100vh;
+    height: 60vh;
   }
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-right:10%;
 }
-}
+
 @media screen and (max-width: 628px) {
   .about-us {
-    font-size: 65%;
+    font-size: 70%;
   }
+
   .main-image {
-    height: 100vh;
+    height: 40vh;
+  }
+
+  header {
+    font-size: 70%;
   }
 
   .gallery {
     Display: flex;
     flex-direction: column;
-    justify-content:stretch;
+    justify-content: stretch;
     align-items: center;
-    column:3;
+    column: 3;
   }
+
   gallery img {
-    width:100%;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 628px) {
-  .about-us {
-    font-size: 75%;
-  }
-
-  .main-image {
-    height: 100vh;
-  .timetable { 
-    font-size:0.8em;
-    }
+.timetable {
+  font-size: 0.8em;
 }
+}
+
 @media screen and (max-width: 576px) {
   .timetable {
-    font-size:0.6em;
+    font-size: 0.7em;
   }
 }
+
 @media screen and (max-width: 540px) {
   header {
     font-size: 60%;
@@ -394,48 +402,55 @@ td {
     font-size: 110%;
   }
 
-.main-image {
-  height: 110vh;
+  .main-image {
+    height: 110vh;
+  }
+
+  .about-us {
+    width: 80%;
+    font-size: 75%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-.about-us {
-  width:80%;
-  font-size: 75%;
-  font-weight:600;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align:center;
-}
-}
 @media screen and (max-width: 435px) {
   header {
     align-content: center;
     font-size: 50%;
   }
+
   .about-us {
     font-size: 90%;
+  }
+
+  .timetable {
+    font-size: 0.4em;
+  }
 }
-.timetable {
-  font-size:0.4em;
-}
-}
+
 @media screen and (max-width: 318px) {
   header {
     align-content: center;
     font-size: 50%;
   }
+
   .about-us {
     font-size: 65%;
+  }
 }
-}
+
 @media screen and (max-width: 294px) {
   header {
     align-content: center;
     font-size: 35%;
   }
+
   .about-us {
     font-size: 60%;
-}
+  }
 }
