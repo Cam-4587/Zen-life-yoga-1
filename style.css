@@ -38,13 +38,13 @@ header {
 }
 
 #lily-flower {
-  height: 6.5em;
+  height: 6em;
   align-self: center;
 }
 
 header>h4 {
   align-self: center;
-  font-size: 650%;
+  font-size: 400%;
   padding-right: 10%;
 }
 
@@ -55,7 +55,7 @@ nav {
   justify-content: center;
   text-align: center;
   padding: 1%;
-  font-size: 40px;
+  font-size: 20px;
   width: 100%;
   padding-right: 14%;
   margin-top: 0px;
@@ -260,3 +260,42 @@ td {
   width: 100px;
   font-family: "Montserrat", sans-serif;
 }
+@media screen and (max-width: 540px) {
+
+  header {
+    font-size: 60%;
+  }
+  #lily-flower {
+    height: 6em;
+  }
+
+  nav {
+    font-size: 110%;
+  }
+}
+  @media screen and (max-width: 768px) {
+  .flip-card-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .second-row {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
+    
+}
+@media screen and (max-width: 320px) {
+.about-us {
+  width:90vw;
+  font-weight:600;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content:center;
+}
+}
+
