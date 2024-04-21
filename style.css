@@ -195,7 +195,8 @@ footer ul {
   justify-content:stretch;
 }
 .gallery img {
-  width:34.6vi; 
+  width:50vw;
+  
 }
 
 
@@ -286,8 +287,6 @@ td {
     display: flex;
     flex-direction: column;
   }
-}
-    
 }
 @media screen and (max-width: 320px) {
 .about-us {
