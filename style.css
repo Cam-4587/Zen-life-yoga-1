@@ -31,19 +31,19 @@ header {
   background-color: rgb(144, 238, 144);
   display: flex;
   justify-content: center;
-  align-items:center;
-  height:15vh;
-  padding:2%;
-  width:100vw;
+  align-items: center;
+  height: 15vh;
+  padding: 2%;
+  width: 100vw;
 }
 
 #lily-flower {
-  height: 9em;
-  align-items:start;
+  height: 7em;
+  align-items: start;
 }
 
 header>h4 {
-  font-size:8vi;
+  font-size: 8vi;
   overflow-y: hidden;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 100;
@@ -51,10 +51,10 @@ header>h4 {
 
 nav {
   display: flex;
-  width:105vw;
+  width: 105vw;
   justify-content: center;
   gap: 2vw;
-  font-size:2em;
+  font-size: 2em;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -63,13 +63,13 @@ nav {
 }
 
 body {
-  min-height:100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background: repeating-linear-gradient(#e0efe5, #c9eed6);
   position: relative;
   overflow-x: hidden;
-  margin:0;
+  margin: 0;
 }
 
 footer {
@@ -83,22 +83,22 @@ footer ul {
   justify-content: space-evenly;
   list-style-type: none;
   margin: 2vh;
-  size:3em;
+  size: 3em;
 }
 
 .main-image {
   position: relative;
   width: 120vw;
   opacity: 0.3;
-  height:70vi;
+  height: 80%;
 }
 
 .about-us {
   font-family: "Montserrat", sans-serif;
   position: absolute;
   font-size: 1.8vi;
-  min-height:30vh;
-  max-height:60vh;
+  min-height: 30vh;
+  max-height: 60vh;
   width: 50vw;
   left: 5%;
   margin-top: 2.5%;
@@ -183,20 +183,22 @@ footer ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align:center;
+  text-align: center;
   font-size: 300%;
 }
 
 .gallery {
-  width:110vw;
-  display:flex;
+  width: 110vw;
+  display: flex;
   flex-wrap: wrap;
   line-height: 0px;
-  justify-content:stretch;
+  justify-content: stretch;
+  list-style-type: none;
 }
+
 .gallery img {
-  width:50vw;
-  
+  width: 50vw;
+
 }
 
 
@@ -244,7 +246,7 @@ td {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  }
+}
 
 #query {
   height: 40vh;
@@ -268,6 +270,7 @@ td {
   header {
     font-size: 60%;
   }
+
   #lily-flower {
     height: 6em;
   }
@@ -276,27 +279,36 @@ td {
     font-size: 110%;
   }
 }
-  @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
   .flip-card-section {
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
+
   .second-row {
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
 }
-@media screen and (max-width: 320px) {
-.about-us {
-  width:90vw;
-  font-weight:600;
-  text-align: center;
-  display:flex;
-  flex-direction: column;
-  align-items: center;    
-  justify-content:center;
-}
-}
 
+@media screen and (max-width: 375px) {
+  .main-image {
+    height: 85vh;
+    position: relative;
+  }
+
+  .about-us {
+    font-size: 0.6em;
+    margin-top: 55px;
+    width: 90vw;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
