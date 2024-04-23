@@ -47,13 +47,13 @@ All of my HTML pages were validated with with the W3C html validator and the CSS
 
 #### HTML WSC validator
 
-Contact us - https://i.im.ge/2024/04/23/ZLdKx8.HTML-W3C-Contact-us-section-validator.png
+Home page - https://i.im.ge/2024/04/23/ZLwdBy.WSC-HTML-validator-Home-page.jpeg
 
-Schedule page - https://i.im.ge/2024/04/23/ZLd88K.HTML-W3C-schedule-validator.png
+Gallery page - https://i.im.ge/2024/04/23/ZLwrOc.WSC-HTML-validator-Gallery-page.jpeg
 
-Gallery page - https://i.im.ge/2024/04/23/ZLd3PS.W3C-HTML-Gallery-page-validator.png
+Schedule page - https://i.im.ge/2024/04/23/ZLwumL.WSC-HTML-validator-schedule-page.jpeg
 
-Index page - https://i.im.ge/2024/04/23/ZLdBQp.W3C-HTML-index-home-page-validator.png
+Contact page - https://i.im.ge/2024/04/23/ZLwSYJ.WSC-HTML-validator-contact-page.jpeg
 
 #### Jigsaw CSS validator
 
