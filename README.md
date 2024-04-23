@@ -59,13 +59,23 @@ Contact page - https://i.im.ge/2024/04/23/ZLwSYJ.WSC-HTML-validator-contact-page
 
 CSS page - https://i.im.ge/2024/04/23/ZLdzPY.Jigswar-CSS-validator.png
 
+The webpage was tested Performance, Accessbility, Best practices, SEO using the lighthouse in chrome devtools. The top image is a text for Desktop performance and the bottom image is for Mobile performance.
+
+![alt text](</images/read_me_images/lighthouse_performance_test_desktop.png>)
+
+![alt text](</images/read_me_images/lighthouse_performance_test_mobile.png>)
+
 ## Deployment
 The site was deployed to Github pages. The steps to deploy the website are as follows:
 
-1.In the Github repository I went to settings
+1.In the Github repository I went to settings.
+
 2.Then in the left hand menu I went the 'code and automation' and clicked on 'pages'
+
 3.Afterwards on Source I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
+
 4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments right hand side in the 'about' side bar I selected Deployments.
+
 5. The url in the deployments menu is selected to open the webpage to deploy it.
 
 Link can be found here - https://cam-4587.github.io/Zen-life-yoga-1/
@@ -127,9 +137,7 @@ https://www.pexels.com/photo/elderly-woman-in-white-shirt-doing-yoga-8436593/
 
 https://www.pexels.com/photo/three-women-smiling-in-a-yoga-class-8436772/
 
-https://www.pexels.com/photo/women-lying-on-the-floor-8436555/
-
-And the images were resized before incorporating them into the website using Resize Pixels -https://www.resizepixel.com
+https://www.pexels.com/photo/happy-young-sportswoman-with-sport-accessories-at-home-4498549/
 
 
 ## Schedule
@@ -142,6 +150,7 @@ The Idea to have the contact information and the map and the query form next to 
 Coder's coffee house - https://learn.codeinstitute.net/sandbox/api/challenges/63f8a682b18a2500418d0f06/files/index.html
 
 The phone number on the page was generated at https://sms24.me/en/numbers/447741366343
+
 The email on the page was generated at - https://generator.email/
 
 
