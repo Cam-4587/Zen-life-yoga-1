@@ -293,7 +293,7 @@ td {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .main-image {
     height: 85vh;
     position: relative;
