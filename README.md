@@ -3,19 +3,22 @@
 
 ![alt text](<images/read_me_images/am_i_responsive_page.png>)
 
- This is my first website and its called Zen life yoga. It is an inclusive Yoga studio located on Princes street that Provides a range of different yogas to meet a variety of needs and welcomes people of all ages. The yoga studio offers people using it the ability to try different yoga's to help provide balance, strength and inner peace giving them some personal growth
+ This is my first website and its called Zen life yoga. It is an inclusive Yoga studio located on Princes street that Provides a range of different yogas to meet a variety of needs and welcomes people of all ages. The yoga studio offers people the ability to try different types of yoga to help provide balance, strength and inner peace giving them some personal growth
 # Features
 
 ## Existing Features
 
 ### Header and Navigation bar
 
-The header and the navigation bar are located in the middle and at the top of each page that also includes a lily flower that adds to the branding of the yoga studio. The navigation bar is located just underneath the header so that it is easy to find for users and contain navigation links to the other pages. Every page also includes a footer page that has three social media icons that contain navigation links to their respective social media pages. These social media icons are spaced evenly across the center of the footer to make them accessible to users.
+The header and the navigation bar are located in the center and at the top of each page that also includes a lily flower icon that adds to the branding of the yoga studio. The navigation bar is located just underneath the header so that it is easy to find for users and contain navigation links to the other pages. 
 
 ![alt text](<images/read_me_images/read_me_header.png>)
 
-![alt text](<images/read_me_images/read_me_footer.png>)
+### Footer 
 
+Every page also includes a footer page that has three social media icons that contain navigation links to their respective social media pages. These social media icons are spaced evenly across the center of the footer to make them accessible to users.
+
+![alt text](<images/read_me_images/read_me_footer.png>)
 
 
 ### The Home page
@@ -25,7 +28,7 @@ The home page includes an 'About us text section' That introduces the user to th
 ![alt text](<images/read_me_images/read_me_about_us_section.png>)
 
 
-Underneath the About us section is a selection of flip cards that surround a header saying 'Types of yoga that we offer'. The flip cards tell you the type of yoga at the front and then a description of that type of yoga at the back. The flip cards are a hover mechanism so when you hovering the cursor over the card reveals its description and removing the cursor flips the card back over to show its name.
+Underneath the About us section is a selection of flip cards that surround a header saying 'Types of yoga that we offer'. The flip cards tell you the type of yoga at the front and then a description of that type of yoga at the back and are activated by clicking on the flip card to reveal its description.
 
 ![alt text](<images/read_me_images/read_me_flip_card_section.png>)
 
@@ -70,6 +73,8 @@ The webpage was tested Performance, Accessbility, Best practices, SEO using the 
 
 ![alt text](</images/read_me_images/lighthouse_performance_test_mobile.png>)
 
+In Chrome Devtools the website was tested for responsiveness in the following devices: Iphone SE, Iphone XR,Iphone 12 Pro, Iphone 14 Pro Max, Pixel 7, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, Ipad mini, Ipad Air, Ipad pro, Surface Pro 7, Surface Duo, Galaxy Z Fold 5, Asuz Zenbook fold, Samsung Galaxy A51/71, Nest hub, Nest hub max, Ipad pro.
+
 ## Deployment
 The site was deployed to Github pages. The steps to deploy the website are as follows:
 
@@ -79,11 +84,11 @@ The site was deployed to Github pages. The steps to deploy the website are as fo
 
 3.Afterwards on Source I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
 
-4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments right hand side in the 'about' side bar I selected Deployments.
+4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments in the right  side in the 'about' side bar where I selected Deployments.
 
 5. The url in the deployments menu is selected to open the webpage to deploy it.
 
-Link can be found here - https://cam-4587.github.io/Zen-life-yoga-1/
+Link can be found here - [text](https://cam-4587.github.io/Zen-life-yoga-1/)
 
 # Credits
 
