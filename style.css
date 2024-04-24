@@ -221,7 +221,7 @@ footer ul {
   height: 90vh;
   width: 90vw;
   table-layout: fixed;
-  font-size: 2vi;
+  font-size: 1.9vi;
 
 }
 
@@ -326,6 +326,9 @@ td {
   .about-us {
     font-size: 0.63em;
     margin-top: px;
+}
+.types-of-yoga {
+  font-size:230%;
 }
 }
 @media screen and (max-width: 330px) {
