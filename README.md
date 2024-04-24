@@ -78,17 +78,15 @@ In Chrome Devtools the website was tested for responsiveness in the following de
 ## Deployment
 The site was deployed to Github pages. The steps to deploy the website are as follows:
 
-1.In the Github repository I went to settings.
+1.In the Github repository I went to settings and then selected 'pages' found in the 'code and automation'section.
 
-2.Then in the left hand menu I went the 'code and automation' and clicked on 'pages'
+2. In the pages section under 'Source' I selected 'Deploy from branch'.
 
-3.Afterwards on I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
+3. In the 'branch' section  I selected 'main' and '/root' in the two drop down menus and selected save.
 
-4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments on the right side in the 'about' side bar where I selected Deployments.
+4 . In the pages menu at the top in the '<> code' tab I selected deployments on the right hand side of the page where I opened the url to deploy the website.
 
-5. The url in the deployments menu is selected to open the webpage to deploy it.
-
-Link can be found here - [text](https://cam-4587.github.io/Zen-life-yoga-1/)
+Link can be found here - [Zen life Yoga](https://cam-4587.github.io/Zen-life-yoga-1/)
 
 # Credits
 
