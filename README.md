@@ -1,7 +1,7 @@
 
 # Zen life Yoga
 
-![alt text](<images/read_me_images/am_i_responsive_page.png>)
+![alt text](<assets/images/read_me_images/am_i_responsive_page.png>)
 
  This is my first website and its called Zen life yoga. It is an inclusive Yoga studio located on Princes street that Provides a range of different yogas to meet a variety of needs and welcomes people of all ages. The yoga studio offers people the ability to try different types of yoga to help provide balance, strength and inner peace giving them some personal growth
 # Features
@@ -12,66 +12,66 @@
 
 The header and the navigation bar are located in the center and at the top of each page that also includes a lily flower icon that adds to the branding of the yoga studio. The navigation bar is located just underneath the header so that it is easy to find for users and contain navigation links to the other pages. 
 
-![alt text](<images/read_me_images/read_me_header.png>)
+![alt text](<assets/images/read_me_images/read_me_header.png>)
 
 ### Footer 
 
 Every page also includes a footer page that has three social media icons that contain navigation links to their respective social media pages. These social media icons are spaced evenly across the center of the footer to make them accessible to users.
 
-![alt text](<images/read_me_images/read_me_footer.png>)
+![alt text](<assets/images/read_me_images/read_me_footer.png>)
 
 
 ### The Home page
 
 The home page includes an 'About us text section' That introduces the user to the yoga studio and what the mission is for the yoga studio. This text is set to the backdrop of a home image of A man in a lotus flower position where the image is translucent allowing the overlaying text to be read more easily by users.
 
-![alt text](<images/read_me_images/read_me_about_us_section.png>)
+![alt text](<assets/images/read_me_images/read_me_about_us_section.png>)
 
 
 Underneath the About us section is a selection of flip cards that surround a header saying 'Types of yoga that we offer'. The flip cards tell you the type of yoga at the front and then a description of that type of yoga at the back and are activated by clicking on the flip card to reveal its description.
 
-![alt text](<images/read_me_images/read_me_flip_card_section.png>)
+![alt text](<assets/images/read_me_images/read_me_flip_card_section.png>)
 
 ### Gallery
 
 The Gallery page includes 10 images, most of them being images of people performing different yoga positions with a couple of images of equipment that is available at the yoga studio. The images are arranged in a 5*2 grid but when you reduce the screen to a certain width it reduces to a single column of 10 images.
 
-![alt text](<images/read_me_images/read_me_gallery.png>)
+![alt text](<assets/images/read_me_images/read_me_gallery.png>)
 
 ### Schedule
 
 The Schedule page tells users what time Each of the classes are on thorught the week, each piece of text is in it's own box with shadowing Distinguising it from other pieces of text making it more readable.
 
-![alt text](<images/read_me_images/read_me_schedule_picture.png>)
+![alt text](<assets/images/read_me_images/read_me_schedule_picture.png>)
 
 ### Contact info
 
 The contact information page contains the email address, phone number address and google map location of the Yoga studio. Next to the contact information is a query page That requires you to enter your First name, Surname and email address followed by a textarea where you can write your query before pressing submit.
 
-![alt text](<images/read_me_images/read_me_contact_section.png>)
+![alt text](<assets/images/read_me_images/read_me_contact_section.png>)
 
 # Testing
 All of my HTML pages were validated with with the W3C html validator and the CSS code was validated using the jigsaw CSS validator.
 
 #### HTML WSC validator
 
-Home page - https://i.im.ge/2024/04/24/ZhqpHf.HTML-WSC-validator-home-page.jpeg
+Home page - 
 
-Gallery page - https://i.im.ge/2024/04/24/ZhqZo4.HTML-WSC-Gallery-page-validator.jpeg
+Gallery page - 
 
-Schedule page - https://i.im.ge/2024/04/24/ZhqKhC.HTML-WSC-validator-Schedule-page.jpeg
+Schedule page - 
 
-Contact page - https://i.im.ge/2024/04/24/ZhqfBp.HTML-WSC-validator-Contact-page.jpeg
+Contact page - 
 
 #### Jigsaw CSS validator
 
-CSS page - https://i.im.ge/2024/04/24/ZhqHA1.CSS-Jigsaw-validator.jpeg
+CSS page - 
 
 The webpage was tested Performance, Accessbility, Best practices, SEO using the lighthouse in chrome devtools. The top image is a text for Desktop performance and the bottom image is for Mobile performance.
 
-![alt text](</images/read_me_images/lighthouse_performance_test_desktop.png>)
+![alt text](assets/images/read_me_images/lighthouse_performance_test_desktop.png>)
 
-![alt text](</images/read_me_images/lighthouse_performance_test_mobile.png>)
+![alt text](<assets/images/read_me_images/lighthouse_performance_test_mobile.png>)
 
 In Chrome Devtools the website was tested for responsiveness in the following devices: Iphone SE, Iphone XR,Iphone 12 Pro, Iphone 14 Pro Max, Pixel 7, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, Ipad mini, Ipad Air, Ipad pro, Surface Pro 7, Surface Duo, Galaxy Z Fold 5, Asuz Zenbook fold, Samsung Galaxy A51/71, Nest hub, Nest hub max, Ipad pro.
 
