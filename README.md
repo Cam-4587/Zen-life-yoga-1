@@ -92,7 +92,7 @@ Link can be found here - [text](https://cam-4587.github.io/Zen-life-yoga-1/)
 
 # Credits
 
-##Fonts
+## Fonts
 I imported fonts from google fonts to help me style my webpage https://fonts.google.com/
 "Montserrat", "Pacifico"and "Barlow Condensed" were all imported from google fonts
 
