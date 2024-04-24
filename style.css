@@ -32,7 +32,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 15.5vh;
   padding: 2%;
   width: 100vw;
 }
@@ -292,15 +292,15 @@ td {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .main-image {
-    height: 85vh;
+    height: 65vh;
     position: relative;
   }
 
   .about-us {
-    font-size: 0.6em;
-    margin-top: 55px;
+    font-size: 0.7em;
+    margin-top: 30px;
     width: 90vw;
     font-weight: 600;
     text-align: center;
@@ -310,13 +310,27 @@ td {
     justify-content: center;
   }
   .gallery {
-    Display: flex;
+    display:flex;
     flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width:100vw;
   }
 
-  gallery img {
-    width: 100vw;
+  .gallery img {
+    width:100vw;
   }
+}
+
+@media screen and (max-width: 390px) {
+  .about-us {
+    font-size: 0.63em;
+    margin-top: px;
+}
+}
+@media screen and (max-width: 330px) {
+  .about-us {
+    font-size: 0.6em;
+    margin-top: 20px;
+}
 }
