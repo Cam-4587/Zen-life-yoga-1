@@ -212,7 +212,7 @@ footer ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top:35px;
 }
 
 .schedule-header {
@@ -223,7 +223,7 @@ footer ul {
 }
 
 .timetable {
-  height: 90vh;
+  height: 80vh;
   width: 90vw;
   table-layout: fixed;
   font-size: 1.9vi;
