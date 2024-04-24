@@ -1,8 +1,9 @@
+/* Universal selector to override styles added by browser*/
 * {
   margin: 0;
   padding: 0;
 }
-
+/* Fonts imported from Google fonts*/
 .barlow-condensed-thin {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 100;
@@ -26,7 +27,7 @@
   font-style: italic;
   line-height: 1.5;
 }
-
+/* Header styling*/
 header {
   background-color: rgb(144, 238, 144);
   display: flex;
@@ -48,7 +49,7 @@ header>h4 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 100;
 }
-
+/* Navigation bar styling*/
 nav {
   display: flex;
   width: 105vw;
@@ -61,7 +62,7 @@ nav {
   background-color: rgb(144, 238, 144);
   margin-top: 0;
 }
-
+/*Body styling and positioning*/
 body {
   min-height: 100vh;
   display: flex;
@@ -71,13 +72,13 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
-
+/*Footer styling*/
 footer {
   margin-top: auto;
   background-color: rgb(144, 238, 144);
   width: 105vw;
 }
-
+/*Styling for social media icons in the footer*/
 footer ul {
   display: flex;
   justify-content: space-evenly;
@@ -85,13 +86,14 @@ footer ul {
   margin: 2vh;
 }
 
+/* Background image on home page styling and positioning*/
 .main-image {
   position: relative;
   width: 120vw;
   opacity: 0.3;
   height: 80%;
 }
-
+/* Styling and positioning for about us text*/
 .about-us {
   font-family: "Montserrat", sans-serif;
   position: absolute;
@@ -104,6 +106,7 @@ footer ul {
   line-height: 1.7;
 }
 
+/* Styling and Positioning for flip cards*/
 .flip-card-section {
   display: flex;
   position: relative;
@@ -166,7 +169,7 @@ footer ul {
   gap: 5rem;
   padding: 12.5px;
 }
-
+/* Styling and Positioning for flip cards*/
 .second-row {
   display: flex;
   gap: 30px;
@@ -176,7 +179,7 @@ footer ul {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-
+/* Types of yoga text, styling and positioning*/ 
 .types-of-yoga {
   display: flex;
   flex-direction: column;
@@ -185,7 +188,7 @@ footer ul {
   text-align: center;
   font-size: 300%;
 }
-
+/* Gallery section*/ 
 .gallery {
   width: 110vw;
   display: flex;
@@ -200,7 +203,7 @@ footer ul {
 
 }
 
-
+/* Schedule section*/ 
 .schedule-main {
   min-height: 110vh;
   min-width: 100vw;
@@ -214,6 +217,8 @@ footer ul {
 
 .schedule-header {
   text-align: center;
+  font-size: 3em;
+  text-decoration: underline;
 
 }
 
@@ -238,7 +243,7 @@ td {
   word-wrap: break-word;
   font-size: 1em;
 }
-
+/* Contact page*/ 
 .contact-info {
   display: flex;
   justify-content: center;
@@ -247,23 +252,28 @@ td {
   text-align: center;
 }
 
+/* Query textarea*/ 
 #query {
   height: 40vh;
   width: 50vw;
   font-family: "Montserrat", sans-serif;
 }
 
+/* Map*/ 
 .map-location {
   height: 45vh;
   width: 45vw;
 }
 
+/*Input button*/
 .Input-button {
   height: 30px;
   width: 100px;
   font-family: "Montserrat", sans-serif;
 }
 
+
+/*Media rule to reduced size header font-size, lily flower icon and navigation bar font size for screens below 540px in width*/
 @media screen and (max-width: 540px) {
 
   header {
@@ -278,7 +288,7 @@ td {
     font-size: 110%;
   }
 }
-
+/* Media rule to put flipcards into a column for screens with a width below 768px*/ 
 @media screen and (max-width: 768px) {
   .flip-card-section {
     width: 100vw;
@@ -292,6 +302,11 @@ td {
     flex-direction: column;
   }
 }
+/*Media rule to reduce size of home page image,
+ reduce 'about us' font-size and arrange into centered based paragraphs 
+ and put gallery images into 1 column that each span the whole screen for screens
+ with a width below 430px*/ 
+ 
 @media screen and (max-width: 430px) {
   .main-image {
     height: 65vh;
@@ -320,8 +335,12 @@ td {
   .gallery img {
     width:100vw;
   }
+  .schedule-header {
+    font-size:1.7em;
+  }
 }
 
+/* Media rule to reduce the size of text for types of yoga and about us section for screens below 390px in width*/ 
 @media screen and (max-width: 390px) {
   .about-us {
     font-size: 0.63em;
@@ -330,6 +349,8 @@ td {
   font-size:230%;
 }
 }
+/* Media rule to reduce text size for about us section and margin added to separate from nav bar 
+for screens with a width below 330px*/ 
 @media screen and (max-width: 330px) {
   .about-us {
     font-size: 0.6em;

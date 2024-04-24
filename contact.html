@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Head section-->
 
 <head>
-    <link href="style.css" rel="stylesheet">
+    <!--Link to CSS stylesheet-->
+    <link href="assets/style.css" rel="stylesheet">
+    <!--Meta values for Search engine optimization-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yoga studio located on Princes street in Edinburgh offering a range of different types of yoga.">
-    <meta name="keywords" content="Yoga, Edinburgh, Princes street, Kripalu yoga,Lyengar yoga, Hatha yoga, Kundalini yoga, Ashtanga yoga, Restorative yoga, Yin yoga">
+    <meta name="description"
+        content="Yoga studio located on Princes street in Edinburgh offering a range of different types of yoga.">
+    <meta name="keywords"
+        content="Yoga, Edinburgh, Princes street, Kripalu yoga,Lyengar yoga, Hatha yoga, Kundalini yoga, Ashtanga yoga, Restorative yoga, Yin yoga">
+    <!--Title-->
     <title>Zen life Yoga</title>
-    <link rel="icon" type="image/x-icon" href="images/yoga-favicon.ico">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/images/yoga-favicon.ico">
+    <!--Imported fonts from google fonts-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi+Fun:wght@400..700&display=swap');
     </style>
 </head>
+
+
 <body>
-<header>
-    <img src="images/lily-flower.png" alt="lily-flower"  id="lily-flower" >
-    <h4 class="barlow-condensed-thin">Zen life Yoga</h4>
-</header>
-<nav>
-    <a href="index.html" class="barlow-condensed-thin">Home</a>
-    <a href="gallery.html" class="barlow-condensed-thin">Gallery</a>
-    <a href="schedule.html" class="barlow-condensed-thin">Schedule</a>
-    <a href="contact.html" class="barlow-condensed-thin">Contact us</a>
-</nav>
+    <!--Header-->
+    <header>
+        <img src="assets/images/lily-flower.png" alt="lily-flower" id="lily-flower">
+        <h4 class="barlow-condensed-thin">Zen life Yoga</h4>
+    </header>
+    <!--Navigation bar-->
+    <nav>
+        <a href="index.html" class="barlow-condensed-thin">Home</a>
+        <a href="gallery.html" class="barlow-condensed-thin">Gallery</a>
+        <a href="schedule.html" class="barlow-condensed-thin">Schedule</a>
+        <a href="contact.html" class="barlow-condensed-thin">Contact us</a>
+    </nav>
     <main>
         <div class="contact-info">
             <div>
+                <!-- Contact information-->
                 <br>
-                <p class="contact"><i class="fa-solid fa-location-dot"></i>Address: 129 Princes Street, Edinburgh, EH2
-                    4AH </p>
+                <p class="contact"><i class="fa-solid fa-location-dot"></i>Address: 129 Princes Street, <br> Edinburgh
+                    EH2 4AH </p>
                 <br>
                 <p class="contact"><i class="fa-solid fa-phone"></i>Phone Number:+447741366343</p>
                 <br>
@@ -37,41 +50,52 @@
                 <br>
                 <p class="contact"><i class="fa-solid fa-clock"></i>Opening times:Mon-Fri 09:00-17:00</p>
                 <br>
+                <!-- Map location of Yoga studio-->
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.9191636815663!2d-3.2074640243471775!3d55.950772976726824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c71c1d2d2d3d%3A0xbf780f051d6b14b!2s129%20Princes%20St%2C%20Edinburgh%20EH2%204AH!5e0!3m2!1sen!2suk!4v1712679371384!5m2!1sen!2suk"
-                    class ="map-location"></iframe>
+                    alt="Map of Yoga location at 129 Princes Street, Edinburgh, EH2 4AH" class="map-location"></iframe>
             </div>
             <div id="Query-box">
                 <form>
+                    <!-- First Name, Last name and email address input boxes-->
                     <label for="first-name">First-name:</label>
                     <br>
-                    <input type="text" name="first-name" id="first-name" class="text-input" style="border:3px solid black; width:250px;" required>
+                    <input type="text" name="first-name" id="first-name" class="text-input"
+                        style="border:3px solid black; width:250px" required>
                     <br>
                     <label for="surname">Surname:</label>
                     <br>
-                    <input type="text" name="surname" id="surname" class="text-input" style="border:3px solid black; width:250px;" required>
+                    <input type="text" name="surname" id="surname" class="text-input"
+                        style="border:3px solid black; width:250px;" required>
                     <br>
                     <label for="email_address">Email Address:</label>
                     <br>
-                    <input type="email" name="email_address" id="email_address" class="text-input" style="border:3px solid black; width:250px;" required>
+                    <input type="email" name="email_address" id="email_address" class="text-input"
+                        style="border:3px solid black; width:250px;" required>
                     <br>
                     <label for="query">Query:</label>
                     <br>
-                    <textarea id="query" name="Query" cols="40" rows="15" style="border:3px solid black;" placeholder="Type your question here !!!"></textarea>
+                    <!-- Query box for asking questions-->
+                    <textarea id="query" name="Query" cols="40" rows="15" style="border:3px solid black;"
+                        placeholder="Type your question here !!!"></textarea>
                     <br>
                     <input type="submit" class="Input-button" value="Submit">
                 </form>
             </div>
         </div>
     </main>
-<footer>
-    <ul>
-        <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
-        <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-        </li>
-        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-    </ul>
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-</footer>
+    <br>
+    <footer>
+        <ul>
+            <!-- Social media links to Youtube, Instagram, and Twitter-->
+            <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <!-- Link to fontawesome-->
+        <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    </footer>
 </body>
+
 </html>
