@@ -42,7 +42,7 @@ The Gallery page includes 10 images, most of them being images of people perform
 
 The Schedule page tells users what time Each of the classes are on thorught the week, each piece of text is in it's own box with shadowing Distinguising it from other pieces of text making it more readable.
 
-![Picture of Schedule page](<assets/images/read_me_images/read_me_schedule_picture.png>)
+![Picture of Schedule page](</assets/images/read_me_images/read_me_schedule_picture.png>)
 
 ### Contact info
 
@@ -55,17 +55,17 @@ All of my HTML pages were validated with with the W3C html validator and the CSS
 
 #### HTML WSC validator
 
-Home page - 
+Home page - https://i.im.ge/2024/04/25/ZheaKa.WSC-HTML-home-page-validator.jpeg
 
-Gallery page - 
+Gallery page - https://i.im.ge/2024/04/25/Zhe2Ac.WSC-HTML-Gallery-page-validator.jpeg
 
-Schedule page - 
+Schedule page - https://i.im.ge/2024/04/25/ZheSpL.WSC-HTML-Schedule-page-validator.jpeg
 
-Contact page - 
+Contact page - https://i.im.ge/2024/04/25/Zheq1G.WSC-HTML-Contact-page-validator.jpeg
 
 #### Jigsaw CSS validator
 
-CSS page  - 
+CSS page  - https://i.im.ge/2024/04/25/Zheswx.Jigsaw-CSS-validator.jpeg
 
 The webpage was tested Performance, Accessbility, Best practices, SEO using the lighthouse in chrome devtools. The top image is a text for Desktop performance and the bottom image is for Mobile performance.
 
