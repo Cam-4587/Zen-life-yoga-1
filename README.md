@@ -69,7 +69,7 @@ CSS page -
 
 The webpage was tested Performance, Accessbility, Best practices, SEO using the lighthouse in chrome devtools. The top image is a text for Desktop performance and the bottom image is for Mobile performance.
 
-![alt text](assets/images/read_me_images/lighthouse_performance_test_desktop.png>)
+![Lighthouse Test in Chrome Dev tools for Desktop performance](assets/images/read_me_images/lighthouse_performance_test_desktop.png>)
 
 ![alt text](<assets/images/read_me_images/lighthouse_performance_test_mobile.png>)
 
