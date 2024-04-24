@@ -55,17 +55,17 @@ All of my HTML pages were validated with with the W3C html validator and the CSS
 
 #### HTML WSC validator
 
-Home page - https://i.im.ge/2024/04/23/ZLwdBy.WSC-HTML-validator-Home-page.jpeg
+Home page - https://i.im.ge/2024/04/24/ZhqpHf.HTML-WSC-validator-home-page.jpeg
 
-Gallery page - https://i.im.ge/2024/04/23/ZLwrOc.WSC-HTML-validator-Gallery-page.jpeg
+Gallery page - https://i.im.ge/2024/04/24/ZhqZo4.HTML-WSC-Gallery-page-validator.jpeg
 
-Schedule page - https://i.im.ge/2024/04/23/ZLwumL.WSC-HTML-validator-schedule-page.jpeg
+Schedule page - https://i.im.ge/2024/04/24/ZhqKhC.HTML-WSC-validator-Schedule-page.jpeg
 
-Contact page - https://i.im.ge/2024/04/23/ZLwSYJ.WSC-HTML-validator-contact-page.jpeg
+Contact page - https://i.im.ge/2024/04/24/ZhqfBp.HTML-WSC-validator-Contact-page.jpeg
 
 #### Jigsaw CSS validator
 
-CSS page - https://i.im.ge/2024/04/23/ZLdzPY.Jigswar-CSS-validator.png
+CSS page - https://i.im.ge/2024/04/24/ZhqHA1.CSS-Jigsaw-validator.jpeg
 
 The webpage was tested Performance, Accessbility, Best practices, SEO using the lighthouse in chrome devtools. The top image is a text for Desktop performance and the bottom image is for Mobile performance.
 
@@ -82,9 +82,9 @@ The site was deployed to Github pages. The steps to deploy the website are as fo
 
 2.Then in the left hand menu I went the 'code and automation' and clicked on 'pages'
 
-3.Afterwards on Source I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
+3.Afterwards on I went to Source and clicked on 'Deploy from branch' and then in the branch section I selected 'main' and then in select folder next to it I selected (/root) and saved it.
 
-4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments in the right  side in the 'about' side bar where I selected Deployments.
+4. In the 'Code' section on the same navigation bar where settings is found I selected Deployments on the right side in the 'about' side bar where I selected Deployments.
 
 5. The url in the deployments menu is selected to open the webpage to deploy it.
 
@@ -100,7 +100,7 @@ I imported fonts from google fonts to help me style my webpage https://fonts.goo
 
 The favicon icon was sourced from flaticon:
 
-https://www.flaticon.com/free-icon/yoga_2773699?term=yoga&page=1&position=55&origin=search&related_id=2773699 Yoga man favicon icon
+https://www.flaticon.com/free-icon/yoga_2773699?term=yoga&page=1&position=55&origin=search&related_id=2773699 - Yoga man favicon icon
 
 ## Header
 The lily flower icon was sourced from flaticon:
@@ -120,7 +120,7 @@ The arrangement of the social media icons arranged centrally in the footer came 
 Love Running project URL - https://cam-4587.github.io/Love-Running-walkthrough-project/index.html
 
 ## Home page
-Instructions for creawting a flip card element came from this specific youtube video https://www.youtube.com/watch?v=OV8MVmtgmoY
+Instructions for creating a flip card element came from this specific youtube video https://www.youtube.com/watch?v=OV8MVmtgmoY
 
 The background image was sourced from pexels -https://www.pexels.com/photo/man-in-black-shorts-sitting-on-floor-4325466/
 
@@ -155,7 +155,7 @@ Instructions for the schedule came from this specific youtube video https://www.
 
 ## Contact Us page
 
-The Idea to have the contact information and the map and the query form next to the contact information came from the coder's coffeehouse project and the query form coding came from the Sign-up form section on the Code Institute full stack development course from teh "Form Validation" Challenge and the "Textarea" challenge.
+The Idea to have the contact information with the map on top of the Query box came from the coder's coffeehouse project and the query form coding came from the Sign-up form section on the Code Institute full stack development course from teh "Form Validation" Challenge and the "Textarea" challenge.
 
 Coder's coffee house - https://learn.codeinstitute.net/sandbox/api/challenges/63f8a682b18a2500418d0f06/files/index.html
 
