@@ -65,7 +65,7 @@ Contact page -
 
 #### Jigsaw CSS validator
 
-CSS page - 
+CSS page  - 
 
 The webpage was tested Performance, Accessbility, Best practices, SEO using the lighthouse in chrome devtools. The top image is a text for Desktop performance and the bottom image is for Mobile performance.
 
