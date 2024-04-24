@@ -73,6 +73,8 @@ The webpage was tested Performance, Accessbility, Best practices, SEO using the 
 
 ![Lighthouse Test in Chrome Dev tools for Mobile performance](<assets/images/read_me_images/lighthouse_performance_test_mobile.png>)
 
+### Chrome Dev tools Dimensions
+
 In Chrome Devtools the website was tested for responsiveness in the following devices: Iphone SE, Iphone XR,Iphone 12 Pro, Iphone 14 Pro Max, Pixel 7, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, Ipad mini, Ipad Air, Ipad pro, Surface Pro 7, Surface Duo, Galaxy Z Fold 5, Asuz Zenbook fold, Samsung Galaxy A51/71, Nest hub, Nest hub max, Ipad pro.
 
 ## Deployment
