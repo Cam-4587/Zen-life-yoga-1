@@ -79,7 +79,7 @@ The webpage was tested Performance, Accessbility, Best practices, SEO using the 
 
 * When I deployed my project to github pages I discovered that my image files were not displaying and instead showing the alternative text.
 
-* I discovered that if the image file starts with a forward slash or has spaces in the file then it won't display so I removed these and then the images then on the webpage.
+* I discovered that if the image file starts with a forward slash or has spaces in the file then it won't display so I removed these and then the images were successfully displayed on the webpage.
 
 ### Chrome Dev tools Dimensions
 
